@@ -13,7 +13,7 @@ Coma currently has in total 1004 cores, distributed among 52 different nodes. It
 You can use ssh to log-in to logon machine (a.k.a., the head node)
 
 ```console
-user@local:~$  ssh -X yourusername@coma.hpc1.cs.cmu.edu
+user@local:~$ ssh -X yourusername@coma.hpc1.cs.cmu.edu
 ```
 
 "The first rule of coma club is to never run jobs on the logon machine!" --- the Dictator
@@ -23,29 +23,25 @@ The head node should be used only to write and edit code, compile programs, and 
 
 ## FAQ
  
-- How do I get started?
+- **How do I get started?**
+	
+	See [Getting Started]() for information that you should know before you can use the cluster for the first time.
  
-See Getting started for information that you should know before you can use the cluster for the first time.
+- **I want to use IDL (or python2.7) but it doesn't seem to be in my `PATH`, should I install them locally?**
+
+	Coma does have both installed system-wide, and many more goodies: read the [Getting Started]() page more carefully and look for the keyword "module".
  
-- I want to use IDL (or python2.7) but it doesn't seem to be in my `PATH`, should I install them locally?
+- **What queues and nodes should I use?**
+
+	See [Queues and Nodes](./queues_and_nodes.md) for a table of all the available computational resources on Coma.
  
-Coma does have both installed system-wide, and many more goodies: read the [Getting started]() page more carefully and look for the keyword "module".
+- **What is Slurm?**
+
+	See [Scheduling Tips]() for information about submitting jobs and some useful commands when using the [Slurm](https://slurm.schedmd.com/documentation.html) workload manager.
  
-- I want to have a "peek" at the output of my job in real-time, but the log file only shows up after the job's complete, what should I do?
- 
-[needs an answer]
- 
-- What queues and nodes should I use?
- 
-See [Queues and Nodes](./queues_and_nodes.md) for a table of all the available computational resources on Coma.
- 
-- What is Slurm?
- 
-See [Scheduling tips]() for information about submitting jobs and some useful commands when using the [Slurm](https://slurm.schedmd.com/documentation.html) workload manager.
- 
-- Where should I store my data?
- 
-See [Storage]() for information about all the hard drives on Coma. 
+- **Where should I store my data?**
+
+	See [Storage]() for information about all the hard drives on Coma. 
 
 
 ## Help
