@@ -25,11 +25,11 @@ The head node should be used only to write and edit code, compile programs, and 
  
 - **How do I get started?**
 	
-	See [Getting Started]() for information that you should know before you can use the cluster for the first time.
+	See [Getting Started](./getting_started.md) for information that you should know before you can use the cluster for the first time.
  
 - **I want to use IDL (or python2.7) but it doesn't seem to be in my `PATH`, should I install them locally?**
 
-	Coma does have both installed system-wide, and many more goodies: read the [Getting Started]() page more carefully and look for the keyword "module".
+	Coma does have both installed system-wide, and many more goodies: read the [Getting Started](./getting_started.md) page more carefully and look for the keyword "module".
  
 - **What queues and nodes should I use?**
 
@@ -41,7 +41,7 @@ The head node should be used only to write and edit code, compile programs, and 
  
 - **Where should I store my data?**
 
-	See [Storage]() for information about all the hard drives on Coma. 
+	See [Storage](./storage.md) for information about all the hard drives on Coma. 
 
 
 ## Help
