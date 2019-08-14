@@ -9,7 +9,7 @@ Modules are a simple way to use different versions of software packages. These v
 
 ```console
 user@local:~$ module load python27
-user@local:~$python --version
+user@local:~$ python --version
     Python 2.7.4
 ```
 
