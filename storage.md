@@ -60,16 +60,16 @@ In order to change the striping, you can use the setstripe command. For instance
 
  
 ```console
-touch newfile.dat
-lfs setstripe -c 16 newfile.dat
+user@local:~$ touch newfile.dat
+user@local:~$ lfs setstripe -c 16 newfile.dat
 ```
 
 Alternatively, if you do not know a priori what the file names will be, or will produce many output files in the same directory, the striping can be done at the level of the directory:
 
  
 ```console
-mkdir output_directory
-lfs setstripe -c 16 output_directory
+user@local:~$ mkdir output_directory
+user@local:~$ lfs setstripe -c 16 output_directory
 ```
 
 This ensures that all (newly created) files in `output_directory` will be appropriately striped.

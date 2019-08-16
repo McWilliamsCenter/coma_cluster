@@ -8,6 +8,16 @@ This is a wiki-page covering all you need to know about running and diagnosing j
 Coma currently has in total 1004 cores, distributed among 52 different nodes. It has several large nodes for shared memory (OpenMP) applications, and allows for communication between nodes for applications using MPI
 
 
+## Index
+
+- [Getting Started](./getting_started.md)
+- [Queues and Nodes](./queues_and_nodes.md)
+- [Storage](./storage.md)
+- [Scheduling Tips](./scheduling_tips.md)
+- [Tips and Tricks](./tips_and_tricks.md)
+- [FAQ](#faq)
+
+
 ## Logging In
 
 You can use ssh to log-in to logon machine (a.k.a., the head node)
@@ -21,7 +31,7 @@ user@local:~$ ssh -X yourusername@coma.hpc1.cs.cmu.edu
 The head node should be used only to write and edit code, compile programs, and copy data between drives on coma or on external machines. It should **NOT** be used to perform computation-heavy jobs, since this could potentially crash the entire system. Even if it does not crash the machine, it slows down the head node for all users. 
  
 
-## FAQ
+## FAQ <a name="faq"></a>
  
 - **How do I get started?**
 	
@@ -37,7 +47,7 @@ The head node should be used only to write and edit code, compile programs, and 
  
 - **What is Slurm?**
 
-	See [Scheduling Tips]() for information about submitting jobs and some useful commands when using the [Slurm](https://slurm.schedmd.com/documentation.html) workload manager.
+	See [Scheduling Tips](./scheduling_tips.md) for information about submitting jobs and some useful commands when using the [Slurm](https://slurm.schedmd.com/documentation.html) workload manager.
  
 - **Where should I store my data?**
 

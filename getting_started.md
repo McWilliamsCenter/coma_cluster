@@ -87,9 +87,10 @@ These are not important--nothing to see here--move along. Next install python by
  
 ```console
 user@local:~$ make install
- ```
+```
 
 You now need to make sure this python in your path (before the system python). In your .bashrc file in your home directory, you can add this line:
+
 
 ```
 export PATH=$HOME/usr/bin/:$PATH.
