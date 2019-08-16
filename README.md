@@ -5,7 +5,7 @@ This is a wiki-page covering all you need to know about running and diagnosing j
 
 ## System Description
 
-Coma currently has in total 1004 cores, distributed among 52 different nodes. It has several large nodes for shared memory (OpenMP) applications, and allows for communication between nodes for applications using MPI
+Coma currently has in total 1144 cores, distributed among 61 different nodes. It has several large nodes for shared memory (OpenMP) applications, and allows for communication between nodes for applications using MPI
 
 
 ## Index
