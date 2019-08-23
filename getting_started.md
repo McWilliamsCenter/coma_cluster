@@ -50,7 +50,7 @@ The loading of module files can be placed in `.bashrc` file in one's home direct
 
 ## Installing Python
 
-If the available Python module(s) do not suit your needs, you can install Python from source locally or instakll python using Anaconda! 
+If the available Python module(s) do not suit your needs, you can install Python from source locally or install python using Anaconda! 
 
 
 ### From Source
@@ -89,7 +89,7 @@ These are not important--nothing to see here--move along. Next install python by
 user@local:~$ make install
 ```
 
-You now need to make sure this python in your path (before the system python). In your .bashrc file in your home directory, you can add this line:
+You now need to make sure this python is in your path (before the system python). In your .bashrc file in your home directory, you can add this line:
 
 
 ```
