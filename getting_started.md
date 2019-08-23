@@ -5,7 +5,7 @@ This page has some useful tips and tricks for getting started running jobs on th
 
 ## Using Modules
  
-Modules are a simple way to use different versions of software packages. These versions are often different from the default ones installed on coma, and have additional functionality. For instance, the default version of python is 2.6.6, but there is a module for python 2.7.4. To use this version, simply type:
+Modules are a simple way to use different versions of software packages. These versions are often different from the default ones installed on coma, and have additional functionality. For instance, the default version of Python is 2.6.6, but there is a module for Python 2.7.4. To use this version, simply type:
 
 ```console
 user@local:~$ module load python27
@@ -13,9 +13,9 @@ user@local:~$ python --version
     Python 2.7.4
 ```
 
-Note that this changes the version of python invoked at the prompt. For instance:
+Note that this changes the version of Python invoked at the prompt. For instance:
 
-The module version of python also include numpy, scipy, and many other packages useful for scientific computing. For the new intel-v3 nodes, load the python27-extras module to use numpy and scipy.
+The module version of Python also include numpy, scipy, and many other packages useful for scientific computing. For the new intel-v3 nodes, load the python27-extras module to use numpy and scipy.
 
 In order to see which modules you currently have loaded, type:
 
@@ -50,7 +50,7 @@ The loading of module files can be placed in `.bashrc` file in one's home direct
 
 ## Installing Python
 
-If the available Python module(s) do not suit your needs, you can install Python from source locally or install python using Anaconda! 
+If the available Python module(s) do not suit your needs, you can install Python from source locally or install Python using Anaconda! 
 
 
 ### From Source
@@ -63,7 +63,7 @@ user@local:~$ wget (paste link for source here)
 user@local:~$ tar -xvf Python-2.7.14.tar.xz 
 ``` 
 
-Navigate into this python directory.   
+Navigate into this Python directory.   
 
 ```console
 user@local:~$ ./configure --prefix=/home/yourusername/usr
@@ -82,14 +82,14 @@ to build these modules were not found:
     sunaudiodev 
 ```
 
-These are not important--nothing to see here--move along. Next install python by typing:
+These are not important--nothing to see here--move along. Next install Python by typing:
 
  
 ```console
 user@local:~$ make install
 ```
 
-You now need to make sure this python is in your path (before the system python). In your .bashrc file in your home directory, you can add this line:
+You now need to make sure this Python is in your path (before the system Python). In your .bashrc file in your home directory, you can add this line:
 
 
 ```
