@@ -35,7 +35,7 @@ The head node should be used only to write and edit code, compile programs, and 
 
 - **I am a student/postdoc/faculty member at CMU. How do I set up an account on Coma?**
 	
-	In addition to an Andrew ID, you will need to [apply for an SCS Cluster User account](https://computing.cs.cmu.edu/accounts-access/forms/scs-account.html). Note that if you student or a postdoc you will need to ask your supervisor to sponsor you. That done, you should be able to log in as described above.
+	In addition to an Andrew ID, you will need to [apply for an SCS Cluster User account](https://computing.cs.cmu.edu/accounts-access/forms/scs-account.html). Note that if you are a student or a postdoc you will need to ask your supervisor to sponsor you. That done, you should be able to log in as described above.
  
 - **How do I get started?**
 	
